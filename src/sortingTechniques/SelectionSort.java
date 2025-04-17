@@ -6,7 +6,7 @@ public class SelectionSort {
     public static void main(String[] args) {
 
         int[] arr  = new int[]{1,5,0,-1,2,5};
-        sortAnArrayBySelectionSort(arr);
+        System.out.println(Arrays.toString(sortAnArrayBySelectionSort(arr)));
 
     }
 
